@@ -189,9 +189,7 @@ fig.tight_layout()
 
 # Tampilkan grafik di Streamlit
 st.pyplot(fig)
-
-
 st.markdown("<hr><center>📊 Dibuat dengan Streamlit untuk Analisis EOQ Designed By Ridho</center>", unsafe_allow_html=True)
-    else:
-        st.warning("❌ Kamu belum login. Silakan login dulu.")
+else:
+    st.warning("❌ Kamu belum login. Silakan login dulu.")
 
