@@ -1,2 +1,8 @@
 streamlit
 pandas
+numpy
+sympy
+matplotlib
+plotly
+scipy
+pulp
