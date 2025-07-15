@@ -191,9 +191,9 @@ fig.tight_layout()
 
 # Tampilkan grafik di Streamlit
 st.pyplot(fig)
-        if st.button("Logout"):
-            st.session_state.login = False
-            st.session_state.username = ""
-            st.success("Kamu telah logout.")
-    else:
-        st.warning("❌ Kamu belum login. Silakan login dulu.")
+    if st.button("Logout"):
+        st.session_state.login = False
+        st.session_state.username = ""
+        st.success("Kamu telah logout.")
+else:
+    st.warning("❌ Kamu belum login. Silakan login dulu.")
